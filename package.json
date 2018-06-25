@@ -1,0 +1,17 @@
+{
+  "name": "@marblejs/benchmark",
+  "description": "Marble.js benchmark",
+  "scripts": {
+    "bench:middleware": "make -C ./benchmarks/middleware",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jozef Flakus <hello@jflakus.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@marblejs/core": "^0.5.0",
+    "express": "^4.16.3",
+    "koa": "^2.5.1",
+    "restify": "^7.2.1",
+    "rxjs": "^6.2.1"
+  }
+}
