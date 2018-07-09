@@ -6,7 +6,7 @@
     "bench:middleware": "make -C ./benchmarks/middleware",
   },
   "author": "Jozef Flakus <hello@jflakus.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@marblejs/core": "^1.0.0-rc.0",
     "express": "^4.16.3",

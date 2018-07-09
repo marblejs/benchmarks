@@ -6,11 +6,18 @@
 
 ## Marble.js benchmarks
 
-**Setup**:
+Here are some shitty tests to shallow compare Marble.js to other popular Node.js HTTP frameworks/libraries.
 
-Just run `npm i`
+### Setup
 
-**Benchmarks**:
+1. Install `wrk` - a HTTP benchmarking tool:
+    - macOS users: `brew install wrk`
+    - Linux users: [instructions](https://github.com/wg/wrk/wiki/Installing-Wrk-on-Linux)
+    - Windows users: just install normal system...
+
+2. Just run `npm i`
+
+### Benchmarks
 
 Run benchmarks for *Marble.js*, *Koa*, *Express* and *Restify*:
 ```bash
