@@ -3,7 +3,7 @@
   "description": "Marble.js benchmark",
   "scripts": {
     "bench:routing": "make -C ./benchmarks/routing",
-    "bench:middleware": "make -C ./benchmarks/middleware",
+    "bench:middleware": "make -C ./benchmarks/middleware"
   },
   "author": "Jozef Flakus <hello@jflakus.com>",
   "license": "MIT",
