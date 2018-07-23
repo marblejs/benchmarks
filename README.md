@@ -6,7 +6,7 @@
 
 ## Marble.js benchmarks
 
-Shallow benchmarks for Marble.js comparison to other popular Node.js HTTP frameworks/libraries.
+Shallow benchmarks for Marble.js. Comare to other popular Node.js HTTP frameworks/libraries.
 
 ### Setup
 
