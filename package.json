@@ -3,12 +3,12 @@
   "description": "Marble.js benchmark",
   "scripts": {
     "bench:routing": "make -C ./benchmarks/routing",
-    "bench:middleware": "make -C ./benchmarks/middleware",
+    "bench:middleware": "make -C ./benchmarks/middleware"
   },
   "author": "Jozef Flakus <hello@jflakus.com>",
   "license": "MIT",
-  "devDependencies": {
-    "@marblejs/core": "^1.0.0-rc.0",
+  "dependencies": {
+    "@marblejs/core": "3.0.0-next.78",
     "express": "^4.16.3",
     "koa": "^2.5.1",
     "restify": "^7.2.1",
