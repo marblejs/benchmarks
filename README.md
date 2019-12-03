@@ -1,12 +1,12 @@
 <p align="center">
   <a href="http://marblejs.com">
-    <img src="https://github.com/marblejs/marble/blob/master/assets/logo.png?raw=true" width="320" alt="Marble.js logo"/>
+    <img src="https://github.com/marblejs/marble/blob/master/assets/img/logo.png?raw=true" width="320" alt="Marble.js logo"/>
   </a>
 </p>
 
 ## Marble.js benchmarks
 
-Here are some shitty tests to shallow compare Marble.js to other popular Node.js HTTP frameworks/libraries.
+Shallow benchmarks for Marble.js. Comparison to other popular Node.js HTTP frameworks/libraries.
 
 ### Setup
 
