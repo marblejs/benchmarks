@@ -1,14 +1,14 @@
 all: marble express 
 
 marble:
-	@../run 1 $@
 	@../run 5 $@
-	@../run 10 $@
 	@../run 15 $@
-	@../run 20 $@
-	@../run 30 $@
+	@../run 25 $@
 	@../run 50 $@
+	@../run 75 $@
 	@../run 100 $@
+	@../run 150 $@
+	@../run 200 $@
 	@echo 
 
 express:
