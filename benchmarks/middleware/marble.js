@@ -21,7 +21,12 @@ for (let i = 0; i < n; i++) {
 
 const server = createServer({
   port: 1337,
-  httpListener: httpListener({ effects, middlewares }),
+  listener: httpListener({ effects, middlewares }),
 });
 
-server().then(() => console.log(`  ${n} middlewares - Marble.js`));
+server.then(() => console.log(`  ${n} middlewares - Marble.js`));
+
+const main = async () =>
+  await (await server)();
+
+main();

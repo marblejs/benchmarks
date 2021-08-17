@@ -33,7 +33,12 @@ const app = httpListener({ middlewares, effects });
 
 const server = createServer({
   port: 1337,
-  httpListener: httpListener({ middlewares, effects }),
+  listener: httpListener({ middlewares, effects }),
 });
 
-server().then(() => console.log(`  ${n} endpoints - Marble.js`));
+server.then(() => console.log(`  ${n} endpoints - Marble.js`));
+
+const main = async () =>
+  await (await server)();
+
+main();
